@@ -1,9 +1,7 @@
 // macros2.rs
 // Make me compile! Scroll down for hints :)
 
-fn main() {
-    my_macro!();
-}
+
 
 macro_rules! my_macro {
     () => {
@@ -11,7 +9,9 @@ macro_rules! my_macro {
     };
 }
 
-
+fn main() {
+    my_macro!();
+}
 
 
 
